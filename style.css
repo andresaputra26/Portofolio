@@ -458,8 +458,7 @@ span{
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
-.portofolio-box /* Perbaikan layout portofolio */
-.portofolio-info {
+.portofolio-box .portofolio-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
