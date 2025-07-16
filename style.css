@@ -492,6 +492,10 @@ span{
     text-align: center;
 }
 
+.project-link a {
+    margin: 0 12px; /* tambahkan margin horizontal antar ikon */
+}
+
 .project-link a i {
     font-size: 3.2rem;
     color: black;
