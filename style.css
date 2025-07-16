@@ -492,6 +492,21 @@ span{
     margin: auto;
     color: black;
 }
+.project-link {
+    margin-top: 10px;
+    text-align: center; /* posisi tengah */
+}
+
+.project-link a i {
+    font-size: 24px;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+.project-link a i:hover {
+    color: #00bcd4;
+    transform: scale(1.2);
+}
 .footer{
     position: relative;
     bottom: 0;
