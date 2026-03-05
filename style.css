@@ -317,7 +317,7 @@ span{
     margin: auto;
 }
 .certificate-img {
-    width: 80px;
+    width: 180px;
     height: auto;
 }
 .certificate-content h3{
@@ -710,5 +710,6 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
 
 
