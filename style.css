@@ -261,6 +261,8 @@ span{
     text-align: center;
     margin: 5rem 0;
 }
+
+/**Education **/
 .education{
     padding: 100px 15px;
     background: var(--second-bg-color);
@@ -297,6 +299,46 @@ span{
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
 }
+
+/** Certificate **/
+.certificate{
+    padding: 100px 15px;
+    background: var(--second-bg-color);
+}
+.certificate-content {
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 20px 30px;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px var(--main-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    max-width: 600px;
+    margin: auto;
+}
+.certificate-img {
+    width: 80px;
+    height: auto;
+}
+.certificate-content h3{
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+.certificate-content p{
+    color: white;
+    font-size: 16px;
+    margin: 0 0 10px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.certificate-content:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+/** Experience **/
 .experience{
     background: var(--bg-color);
     color: white;
@@ -668,4 +710,5 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
 
