@@ -329,9 +329,8 @@ span{
     transition: 0.3s ease-in-out;
 }
 .certificate-img{
-    width: 220px;
-    height: 140px;
-    object-fit: cover;
+    width: 260px;
+    height: auto;
     border-radius: 10px;
 }
 .certificate-content h3{
@@ -724,6 +723,7 @@ span{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
 
 
 
