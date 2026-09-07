@@ -548,6 +548,12 @@ span{
     text-align: justify;
 }
 
+.portofolio-box:last-child:nth-child(odd){
+    grid-column: 1 / -1;    /* span seluruh kolom grid */
+    max-width: 50%;          /* batasi lebar agar tidak terlalu lebar */
+    margin: 0 auto;          /* pusatkan ke tengah */
+}
+
 .project-link {
     margin-top: auto;
     text-align: center;
